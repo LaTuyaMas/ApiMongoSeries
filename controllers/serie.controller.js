@@ -55,5 +55,4 @@ serieCtrl.getCategories = async (req,res) => {
         .catch((err) => console.error(err));
 }
 
-
 module.exports = serieCtrl;

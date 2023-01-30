@@ -49,5 +49,4 @@ categorieCtrl.deleteCategorie = async (req, res) => {
         }).catch(err => res.send(err.message));
 }
 
-
 module.exports = categorieCtrl;
